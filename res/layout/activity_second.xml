@@ -1,0 +1,191 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/second_bg">
+    
+
+    <TextView 
+        android:id="@+id/second_room_name"
+        android:text=""
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#2e0000"
+        android:textStyle="bold"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="230dp"/>
+   
+    <RelativeLayout 
+        android:id="@+id/player2"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top"
+        android:layout_centerHorizontal="true" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top"
+        android:layout_toLeftOf="@id/player2"
+        android:layout_marginRight="@dimen/activity_second_margin" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top"
+        android:layout_toRightOf="@id/player2"
+        android:layout_marginLeft="@dimen/activity_second_margin" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/player5"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top2"
+        android:layout_centerHorizontal="true" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top2"
+        android:layout_toLeftOf="@id/player5"
+        android:layout_marginRight="@dimen/activity_second_margin" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="@dimen/activity_second_top2"
+        android:layout_toRightOf="@id/player5"
+        android:layout_marginLeft="@dimen/activity_second_margin" >
+        
+        <ImageView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/second_player"/>
+        <TextView 
+            android:id="@+id/second_player6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+        	android:textSize="20sp"
+        	android:textColor="#2e0000"
+        	android:textStyle="bold"
+        	android:gravity="center_horizontal"
+        	android:layout_marginTop="38dp"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/second_round_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/second_round" />
+    
+    <TextView 
+        android:id="@+id/second_round_text"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="点击输入回合数"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#5afbf9"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="328dp"/>
+    
+    <Button 
+        android:id="@+id/second_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/second_start"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+    
+    <Button 
+        android:id="@+id/second_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/second_quit"/>
+
+
+</RelativeLayout>

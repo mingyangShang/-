@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    
+    <RelativeLayout 
+        android:layout_width="260dp"
+        android:layout_height="325dp"
+        android:background="@drawable/scores">
+        
+        <Button 
+            android:layout_width="45dp"
+            android:layout_height="37dp"
+            android:id="@+id/scores_resume"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/resume"/>
+        
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:id="@+id/scores_volume"
+            android:background="@drawable/volume_on"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="38dp"
+            android:layout_marginBottom="23dp"/>
+        <Button 
+            android:layout_width="75dp"
+            android:layout_height="35dp"
+            android:id="@+id/scores_quit"
+            android:background="@drawable/quit"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="23dp"/>
+        
+         <ListView 
+            android:id="@+id/scores_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginBottom="70dp"
+            android:divider="#00000000"
+			android:dividerHeight="10dp">
+             
+         </ListView>
+        
+<!--          <TextView
+            android:id="@+id/scores_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text=""
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/scores_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/scores_text1"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/scores_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scores_text2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/scores_text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/scores_text3"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/scores_text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/scores_text4"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#FFFFFF" />
+        <TextView
+            android:id="@+id/scores_text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/scores_text5"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="#FFFFFF" />  -->
+                        
+    </RelativeLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,210 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/first_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/first_bg">
+
+ <!--    <Button
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         /> -->
+
+    <Button
+        android:id="@+id/first_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="500dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/first_volume_on" />
+    
+    <Button
+        android:id="@+id/first_quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="565dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/first_quit" />
+
+    <Button
+        android:id="@+id/first_name"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:layout_marginLeft="95dp"
+        android:gravity="center"
+        android:textColor="#2e0000"
+        
+        android:background="#00000000"
+        android:text="点击输入用户名"/>
+    
+    <Button
+        android:id="@+id/first_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_create"
+        android:layout_marginTop="128dp"
+        android:layout_marginLeft="115dp" />
+    
+    <Button
+        android:id="@+id/first_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_search_n"
+        android:layout_marginTop="189dp"
+        android:layout_marginLeft="115dp" />
+    
+    <Button
+        android:id="@+id/first_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/first_add_n"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="115dp" />
+    
+    <RelativeLayout 
+        android:layout_width="264dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="335dp">
+        
+        <ProgressBar
+            android:id="@+id/first_content_progress"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateOnly="true"
+       		android:indeterminateDrawable="@anim/progress_rotate"
+       		android:indeterminateBehavior="repeat"
+            android:visibility="gone"/>
+                
+        <ListView 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/first_content_list"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:divider="#00000000"
+			android:dividerHeight="10dp"
+			android:visibility="gone"></ListView>
+        
+        
+        <ImageView
+            android:id="@+id/first_content_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/first_app_name"
+            android:layout_marginTop="20dp"
+            android:visibility="visible" />
+        
+        <RelativeLayout 
+            android:id="@+id/first_content_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+            
+            <Button 
+                android:id="@+id/first_add_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_ok"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="130dp"/>
+            
+            <Button 
+                android:id="@+id/first_add_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_no"
+                android:layout_alignTop="@id/first_add_ok"
+                android:layout_marginLeft="160dp"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="词条"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#2e0000"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"/>
+            
+            <EditText 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview_brown"
+                android:id="@+id/first_add_citiao"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="85dp"/>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类别"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#2e0000"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="30dp"/>
+            
+            <EditText 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview_brown"
+                android:id="@+id/first_add_leibie"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="85dp"/>
+            
+        </RelativeLayout>
+        
+        <RelativeLayout 
+            android:id="@+id/first_content_input_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+            
+            
+            <Button 
+                android:id="@+id/first_input_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_ok"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="130dp"/>
+            
+            <Button 
+                android:id="@+id/first_input_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dialog_no"
+                android:layout_alignTop="@id/first_input_ok"
+                android:layout_marginLeft="160dp"/>
+            
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入用户名:"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#2e0000"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"/>
+            
+            <EditText 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/editview_brown"
+                android:id="@+id/first_input_name"
+                android:layout_marginTop="73dp"
+                android:layout_marginLeft="50dp"/>
+            
+        </RelativeLayout>
+        
+    </RelativeLayout>
+    
+
+</RelativeLayout>
